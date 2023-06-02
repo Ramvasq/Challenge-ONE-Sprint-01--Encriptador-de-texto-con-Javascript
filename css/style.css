@@ -1,0 +1,39 @@
+body{
+    background-color:#F3F5FC;
+}
+
+/*Header*/
+header{
+    background-color: antiquewhite;
+}
+
+.header{
+    background-color: aquamarine;
+    width: 90%;
+    margin: auto;
+}
+
+.header_logo{
+    margin-top: 40px;
+}
+
+/*Main*/
+.main{
+    background-color: blueviolet;
+    width: 85%;
+    margin: auto 40px auto auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.left{
+    background-color: green;
+   /* width: 60%; */
+}
+
+
+.right{
+    background-color: orange;
+    /* width: 25%; */
+}
