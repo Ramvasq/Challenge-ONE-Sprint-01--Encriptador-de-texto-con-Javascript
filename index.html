@@ -18,17 +18,21 @@
     <main>
         <div class="main">
             <div class="left">
-                <textarea placeholder="Ingrese texto aquí"></textarea>
-                <img src="./imagenes/bi_exclamation-circle-fill.svg" alt="">
-                <p> Solo letras minúsculas y sin acentos</p>
-                <button>Encriptar</button>
-                <button>Descencriptar</button>
+                <textarea class="ingreso_texto" placeholder="Ingrese texto aquí"></textarea>
+                <div class="left_footer">
+                    <img src="./imagenes/bi_exclamation-circle-fill.svg" alt="">
+                    <span class="left_info">Solo letras minúsculas y sin acentos</span>
+                    <div class="left_botones">
+                        <button class="boton_encriptar">Encriptar</button>
+                        <button class="boton_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
             </div>
             <div class="right">
-                <img src="./imagenes/Muñeco.svg" alt="">
-                <p>Ningún mensaje fue encontrado</p>
-                <p>Ingrese el texto que desees encriptar o desencriptar</p>
-                <button>Copiar</button>
+                <img class="muñeco" src="./imagenes/Muñeco.svg" alt="">
+                <p class="mensaje_final">Ningún mensaje fue encontrado</p>
+                <p class="right_info">Ingrese el texto que desees encriptar o desencriptar</p>
+                <button class="boton_copiar oculto">Copiar</button>
             </div>
         </div>
     </main>
