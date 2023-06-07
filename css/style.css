@@ -96,13 +96,22 @@ textarea{
 .muñeco{
     width: 100%;
 }
+.oculto{
+    display: none;
+}
 .mensaje_final{
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
 }
 .mensaje_final.ajustar{
-    height: 70%;
+    text-align: left;
+    font-weight: lighter;
+    height: 80%;
 }
 .right_info{
     color: var(--color-gris);
@@ -111,12 +120,11 @@ textarea{
 }
 .boton_copiar{
     width: 100%;
+    display: none;
     background: transparent;
     color: var(--color-blue);
 }
-.oculto{
-    display: none;
-}
+
 /*footer*/
 footer{
     height: 50px;
